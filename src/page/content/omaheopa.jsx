@@ -6,7 +6,7 @@ import {
 import OmaheOpaImage from "../../assets/omaheopa.jpg"
 import OmaheOpaImage2 from "../../assets/omaheopa2.jpg"
 import OmaheOpaImage3 from "../../assets/omaheopa3.jpg"
-import "../../style/omaheopa.css"
+import "../../style/margin.css"
 
 function OmaheOpa() {
     return (
@@ -33,18 +33,18 @@ function OmaheOpa() {
             </MDBCarousel>
 
             <div className="d-flex">
-                <div className="pt-4 col-6 font custom-div">
-                    <h3><b>Omahe Opa WaterPark</b></h3>
+                <div className="pt-4 col-8 font custom-div">
+                    <h4><b>Omahe Opa WaterPark</b></h4>
                     <p className="custom-div">
                         Omahe Opa Waterpark Taman Donorojo. Tempat ini sedang ramai dibicarakan di sosial media karena di dalamnya terdapat banyak wahana dan spot menarik yang bisa kamu datangi.
                     </p><hr/>
-                    <h3><b>Harga Tiket masuk</b></h3>
+                    <h4><b>Harga Tiket masuk</b></h4>
                     <p className="custom-div">
                         Di bawah ini adalah harga tiket masuk di Omahe Opa Patean Kendal:<br/>
                         Tiket masuk hari biasa (Senin – Jumat) Rp 15.000,-<br/>
                         Tiket masuk hari libur dan tanggal merah (Sabtu – Minggu) Rp 20.000,-.
                     </p><hr/>
-                    <h3><b>Harga Tiket Wahana Dan Permainan</b></h3>
+                    <h4><b>Harga Tiket Wahana Dan Permainan</b></h4>
                     <p className="custom-div">
                         Tiket Masuk Waterpark pada hari biasa Rp 30.000,- dan weekend Rp 40.000,-<br/>
                         Hidroponik (Edu Farm) Rp 10.000,-<br/>
@@ -60,7 +60,7 @@ function OmaheOpa() {
                         Paket Terusan per 4 wahana diskon 5%
                     </p>   
                 </div>
-                <div className="d-flex-column col-6 pt-5">
+                <div className="d-flex-column col-4 pt-5">
                     <img 
                         src={OmaheOpaImage} 
                         alt="Omahe Opa" 

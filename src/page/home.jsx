@@ -4,6 +4,7 @@ import OmaheOpa from '../assets/omaheopa.jpg'
 import KaliBladon from '../assets/kalibladon.jpg'
 import HutanPinus from '../assets/hutanpinus.jpg'
 import CurugSewu from '../assets/curugsewu.jpg'
+import PantaiNgebum from '../assets/pantaingebum.jpg'
 import { Card } from "react-bootstrap";
 
 import {
@@ -93,7 +94,7 @@ function Home() {
                 </a>
               </MDBCol>
             </MDBRow>
-            <a href="#!" className="text-dark">
+            <a href="/riverwalk" className="text-dark">
               <h5>River Walk Boja</h5>
               <p>
               River Walk Boja merupakan tempat wisata teranyar yang dimiliki Kabupaten Kendal, Jawa Tengah. Objek wisata modern ini menghadirkan wahana dan wisata alam yang bertemakan air dan resto.
@@ -103,42 +104,40 @@ function Home() {
         </MDBCol>
         <MDBCol lg="4" md="12" className="mb-4 mb-lg-0">
           <div>
+            <a href="/pantaingebum">
             <MDBRipple
               className="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
               rippleTag="div"
               rippleColor="light"
             >
               <img
-                src={KaliBladon}
+                src={PantaiNgebum}
                 className="img-fluid"
                 alt="Wisata Kali Bladon"
               />
-              <a href="#!">
                 <div
                   className="mask"
                   style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                 ></div>
-              </a>
             </MDBRipple>
             <MDBRow className="mb-3">
               <MDBCol col="6">
-                <a href="!" className="text-info">
                   <MDBIcon fas icon="plane" className="me-1" />
                   Travels
-                </a>
               </MDBCol>
             </MDBRow>
             <a href="#!" className="text-dark">
-              <h5>Wisata Kali Bladon</h5>
+              <h5>Pantai Ngebum</h5>
               <p>
-                Wisata Kendal yang berada di kecamatan Purwokerto ini sebenarnya adalah kolam pemancingan. Namun karena memiliki pemandangan yang indah, Wisata kali Bladon menjadi serbuan wisatawan.
+              Wisata Pantai Ngebum di Kaliwungu Kendal Jawa Tengah adalah tempat wisata yang ramai dengan wisatawan pada hari biasa maupun hari liburan. 
               </p>
+            </a>
             </a>
           </div>
         </MDBCol>
       </MDBRow>
       <hr />
-      <a href="#!">
+      <a href="/hutanpinus">
       <Card className="mb-4" style={{ height: "20vh" }}>
         <div className="row g-0">
           <div className="col-md-2">
@@ -160,7 +159,7 @@ function Home() {
         </div>
       </Card>
       </a>
-      <a href="#!">
+      <a href="/curugsewu">
       <Card className="mb-4" style={{ height: "20vh" }}>
         <div className="row g-0">
           <div className="col-md-2">
